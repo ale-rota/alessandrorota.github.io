@@ -1,0 +1,21 @@
+baseURL = "https://alessandrorota.github.io/"
+title = "Alessandro's Blog"
+theme = "LoveIt"
+languageCode = "en-us"
+
+# LoveIt theme specific parameters
+[params]
+version = "0.2.X"
+
+[params.author]
+name = "Alessandro Rota"
+
+[params.header]
+  desktopMode = "fixed"
+  mobileMode = "auto"
+  [params.header.title]
+    logo = ""
+    name = "The blog of Alessandro Rota"
+    pre = ""
+    post = ""
+    typeit = false

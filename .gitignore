@@ -1,0 +1,5 @@
+# JetBrains project metadata is machine-specific
+.idea/
+public/
+resources/
+.hugo_build.lock
