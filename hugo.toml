@@ -44,3 +44,17 @@ name = "Alessandro Rota"
   GitHub = "ale-rota"
   Linkedin = "alessandro-rota-2b1257134"
   Substack = "alerota"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "now"
+    name = "Now"
+    url = "/now/"
+    title = ""
