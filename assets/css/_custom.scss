@@ -5,9 +5,15 @@
 // Must nest under .home to match the theme's specificity (.home .home-profile .home-avatar img).
 .home {
   .home-profile {
+    // The theme uses translateY(16vh) to center the profile when it's the only content.
+    // With page content below the profile, this causes overlap — reset it to normal flow.
+    transform: translateY(0);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
     .home-avatar img {
-      width: 24rem;
-      height: 24rem;
+      width: 18rem;
+      height: 18rem;
       object-fit: cover;
     }
   }

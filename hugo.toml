@@ -1,5 +1,6 @@
 baseURL = "https://alessandrorota.github.io/"
-title = "Alessandro's Blog"
+# title used in the browser tab
+title = "Alessandro Rota"
 theme = "LoveIt"
 languageCode = "en-us"
 enableEmoji = true
@@ -15,6 +16,7 @@ name = "Alessandro Rota"
   mobileMode = "auto"
   [params.header.title]
     logo = ""
+    # The header title
     name = "Alessandro Rota"
     pre = ""
     post = ""
