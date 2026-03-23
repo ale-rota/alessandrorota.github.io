@@ -36,7 +36,7 @@ name = "Alessandro Rota"
     disclaimer = ""
 
   [params.home.posts]
-    enable = false
+    enable = true
     paginate = 6
 
 # Only GitHub, LinkedIn, and Substack
