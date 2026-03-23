@@ -2,8 +2,8 @@ baseURL = "https://alessandrorota.github.io/"
 title = "Alessandro's Blog"
 theme = "LoveIt"
 languageCode = "en-us"
+enableEmoji = true
 
-# LoveIt theme specific parameters
 [params]
 version = "0.2.X"
 
@@ -15,7 +15,30 @@ name = "Alessandro Rota"
   mobileMode = "auto"
   [params.header.title]
     logo = ""
-    name = "The blog of Alessandro Rota"
+    name = "Alessandro Rota"
     pre = ""
     post = ""
     typeit = false
+
+[params.home]
+  rss = 10
+  [params.home.profile]
+    enable = true
+    gravatarEmail = ""
+    avatarURL = "/images/avatar.jpeg"
+    title = ""
+    subtitle = "Software engineer. I write about technology, engineering culture, and ideas."
+    # No typewriter animation for the subtitle
+    typeit = false
+    social = true
+    disclaimer = ""
+
+  [params.home.posts]
+    enable = false
+    paginate = 6
+
+# Only GitHub, LinkedIn, and Substack
+[params.social]
+  GitHub = "ale-rota"
+  Linkedin = "alessandro-rota-2b1257134"
+  Substack = "alerota"

@@ -1,0 +1,14 @@
+// ==============================
+// Custom style
+// ==============================
+
+// Must nest under .home to match the theme's specificity (.home .home-profile .home-avatar img).
+.home {
+  .home-profile {
+    .home-avatar img {
+      width: 24rem;
+      height: 24rem;
+      object-fit: cover;
+    }
+  }
+}
