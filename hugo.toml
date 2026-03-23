@@ -29,7 +29,7 @@ name = "Alessandro Rota"
     gravatarEmail = ""
     avatarURL = "/images/avatar.jpeg"
     title = ""
-    subtitle = "Software engineer. I write about technology, engineering culture, and ideas."
+    subtitle = "Senior Software Engineer based in (mostly) sunny Barcelona ☀️<br>I write about software and whatever topic I find interesting."
     # No typewriter animation for the subtitle
     typeit = false
     social = true
