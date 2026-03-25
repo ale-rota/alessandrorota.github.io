@@ -7,6 +7,8 @@ enableEmoji = true
 
 [params]
 version = "0.3.1"
+description = "Senior Software Engineer based in Barcelona. I write about software and whatever topic I find interesting."
+images = ["/images/avatar.jpeg"]
 
 [params.author]
 name = "Alessandro Rota"
